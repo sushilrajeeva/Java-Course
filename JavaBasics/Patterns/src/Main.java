@@ -1,6 +1,12 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        int n = 5;  // height of the triangle
+//        int n = 5;  // height of the pyramid
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the height of the pyramid: ");
+        int n = input.nextInt();
 
         for (int i = 1; i <= n; i++) {
             // 1) print leading spaces
