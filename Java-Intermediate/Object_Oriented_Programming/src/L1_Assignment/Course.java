@@ -57,8 +57,5 @@ public class Course {
         python.unenrollStudent("Sachi");
         python.unenrollStudent("Sabitha");
         Course.setMaxCapacity(3);
-
-
-
     }
 }
