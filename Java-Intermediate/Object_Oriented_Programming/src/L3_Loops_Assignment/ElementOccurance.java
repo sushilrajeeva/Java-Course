@@ -26,8 +26,6 @@ public class ElementOccurance {
                 break;
             }
         }
-
         System.out.println("The number " + number + res);
-
     }
 }
