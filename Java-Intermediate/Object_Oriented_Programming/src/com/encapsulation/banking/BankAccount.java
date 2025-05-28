@@ -1,4 +1,4 @@
-package com.example.banking;
+package com.encapsulation.banking;
 
 public class BankAccount {
     private int accountNumber;

@@ -1,6 +1,4 @@
-package com.example.geometry;
-
-import java.util.Scanner;
+package com.encapsulation.geometry;
 
 public class Circle {
     private int radius;

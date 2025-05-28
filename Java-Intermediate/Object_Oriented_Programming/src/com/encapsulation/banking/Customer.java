@@ -1,4 +1,4 @@
-package com.example.banking;
+package com.encapsulation.banking;
 
 public class Customer {
     public static void main(String[] args) {

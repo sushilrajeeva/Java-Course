@@ -1,4 +1,4 @@
-package com.example.geometry;
+package com.encapsulation.geometry;
 
 public class Rectangle {
     private int length;

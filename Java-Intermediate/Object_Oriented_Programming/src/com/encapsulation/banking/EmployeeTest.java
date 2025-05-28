@@ -1,4 +1,4 @@
-package com.example.banking;
+package com.encapsulation.banking;
 
 import L3_Loops_Assignment.UserInput;
 

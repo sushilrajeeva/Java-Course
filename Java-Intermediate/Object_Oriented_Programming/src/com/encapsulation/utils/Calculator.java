@@ -1,8 +1,8 @@
-package com.example.utils;
+package com.encapsulation.utils;
 
 import L3_Loops_Assignment.UserInput;
-import com.example.geometry.Circle;
-import com.example.geometry.Rectangle;
+import com.encapsulation.geometry.Circle;
+import com.encapsulation.geometry.Rectangle;
 
 public class Calculator {
     public static void main(String[] args) {
