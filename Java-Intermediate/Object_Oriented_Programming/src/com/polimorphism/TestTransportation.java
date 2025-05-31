@@ -11,15 +11,21 @@ public class TestTransportation {
 //        Object o = new Car();
 
 //        castTest(v);
-        castTest(c);
+
 //        castTest(p);
+
+        p.start();
+        c.start();
+
+        castTest(c);
 
     }
 
     private static void castTest(Vehicle v) {
-        Car cVehicle = (Car) v;
-        System.out.println("Casting doors : " + ((Car) v).noOfDoors());
-        System.out.println("cVehicle doors : " + cVehicle.noOfDoors());
-        cVehicle.start();
+//        Car cVehicle = (Car) v;
+//        System.out.println("Casting doors : " + ((Car) v).noOfDoors());
+//        System.out.println("cVehicle doors : " + cVehicle.noOfDoors());
+//        cVehicle.start();
+        v.start();
     }
 }
