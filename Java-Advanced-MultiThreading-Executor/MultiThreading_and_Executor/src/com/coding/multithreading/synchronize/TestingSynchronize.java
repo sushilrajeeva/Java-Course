@@ -12,8 +12,9 @@ public class TestingSynchronize {
         try {
             t1.start();
             t2.start();
-            t2.join();
             t1.join();
+            t2.join();
+
         } catch (InterruptedException e) {
             System.out.printf("\n Thread interrupted : \n", e.getMessage());
         }
