@@ -1,4 +1,4 @@
-package com.coding.multithreading;
+package com.coding.multithreading.threads;
 
 public class ExtendingThreadClass {
     public static void main(String[] args) {

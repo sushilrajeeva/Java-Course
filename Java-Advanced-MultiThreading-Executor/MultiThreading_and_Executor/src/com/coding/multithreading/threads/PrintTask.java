@@ -1,4 +1,4 @@
-package com.coding.multithreading;
+package com.coding.multithreading.threads;
 
 // 1. Define a class that extends Thread
 public class PrintTask extends Thread{
@@ -12,7 +12,7 @@ public class PrintTask extends Thread{
         for (int i = 1; i <= 1000; i++) {
             System.out.printf("%d:%c ", i, targetChar);
         }
-        System.out.printf("\n%c Task Done\n", targetChar);
+        System.out.printf("\n %s %c Task Done\n", Thread.currentThread().getName(), targetChar);
     }
 
 

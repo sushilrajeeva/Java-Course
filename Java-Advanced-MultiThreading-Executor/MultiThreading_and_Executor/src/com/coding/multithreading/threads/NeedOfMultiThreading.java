@@ -1,4 +1,4 @@
-package com.coding.multithreading;
+package com.coding.multithreading.threads;
 
 public class NeedOfMultiThreading {
     public static void main(String[] args) {
