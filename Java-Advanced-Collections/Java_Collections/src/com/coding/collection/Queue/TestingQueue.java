@@ -1,4 +1,4 @@
-package com.coding.collection;
+package com.coding.collection.Queue;
 
 import com.coding.collection.helper.PrintCollection;
 
