@@ -18,7 +18,9 @@ public class StreamTest {
 
     public static void printStream(List<String> list) {
         System.out.println("Converting into streams and printing the user list");
-        list.stream().forEach(s -> System.out.println(s));
+//        list.stream().forEach(s -> System.out.println(s));
+//        list.stream().forEach(System.out::println);
+        list.forEach(System.out::println);
     }
 
     public static void filterAndConcatinate(List<String> list) {
